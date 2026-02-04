@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="page-bg">
+<body class="page-bg blog-page">
   <!-- Header -->
   <header class="blog-header">
     <div class="container">
@@ -38,13 +38,14 @@
   </header>
 
   <!-- Hero -->
-  <section class="blog-hero">
+  <section class="blog-hero blog-hero-masthead">
     <div class="container">
       <div class="hero-content">
         <div class="hero-image">
           <img src="Img/Foto mia/1715684131009.jpg" alt="Mikel Barajas">
         </div>
         <div class="hero-text">
+          <span class="blog-hero-label">Blog</span>
           <h1 class="hero-title">Mi Historia</h1>
           <p class="hero-subtitle">De Portugalete a la tecnología: un camino de transformación</p>
           <p class="hero-description">
@@ -58,12 +59,39 @@
 
   <!-- Main Content -->
   <main class="blog-main">
-    <div class="container-wide">
+    <div class="container-wide blog-layout-with-sidebar">
+      <aside class="blog-sidebar">
+        <div class="blog-sidebar-card">
+          <h3 class="blog-sidebar-title">En este artículo</h3>
+          <nav class="blog-toc">
+            <a href="#origenes">Orígenes</a>
+            <a href="#futbol">El Fútbol</a>
+            <a href="#lesion">La Lesión</a>
+            <a href="#libertad-financiera">Libertad Financiera</a>
+            <a href="#maik">Maik&Co</a>
+            <a href="#tecnologia">Tecnología</a>
+            <a href="#personas">Personas que me marcaron</a>
+            <a href="#rutina">Mi día a día</a>
+            <a href="#objetivos">Objetivos y futuro</a>
+            <a href="#cursos-ciberseguridad">Cursos Ciberseguridad</a>
+            <a href="#cursos-ia">Cursos IA para negocios</a>
+            <a href="#valores">Mis Valores</a>
+          </nav>
+        </div>
+        <div class="blog-sidebar-card blog-author-card">
+          <div class="blog-author-avatar">
+            <img src="Img/Foto mia/1715684131009.jpg" alt="Mikel Barajas">
+          </div>
+          <h3 class="blog-sidebar-title">Mikel Barajas</h3>
+          <p>Técnico, emprendedor y apasionado por la tecnología y la libertad financiera.</p>
+          <a href="contacto.html" class="btn btn-primary btn-small">Contactar</a>
+        </div>
+      </aside>
       <div class="blog-posts-layout">
       
       <!-- Orígenes -->
-      <article class="blog-post">
-        <div class="post-header">
+      <article class="blog-post" id="origenes">
+        <div class="post-header post-header-img" style="--bg-image: url('Img/Foto mia/1715684131009.jpg');">
           <span class="post-category">Orígenes</span>
           <h2>🏘️ Mis Orígenes en Portugalete, Bizkaia</h2>
         </div>
@@ -87,8 +115,8 @@
       </article>
 
       <!-- El Fútbol -->
-      <article class="blog-post">
-        <div class="post-header">
+      <article class="blog-post" id="futbol">
+        <div class="post-header post-header-img" style="--bg-image: url('Img/Foto mia/1715684131009.jpg'); --bg-pos: 50% 20%;">
           <span class="post-category">Deporte</span>
           <h2>⚽ El Fútbol: Mi Primera Pasión</h2>
         </div>
@@ -112,8 +140,8 @@
       </article>
 
       <!-- La Lesión -->
-      <article class="blog-post highlight">
-        <div class="post-header">
+      <article class="blog-post highlight" id="lesion">
+        <div class="post-header post-header-img post-header-accent" style="--bg-image: url('Img/Foto mia/1715684131009.jpg'); --bg-pos: 80% 30%;">
           <span class="post-category">Transformación</span>
           <h2>🔄 La Lesión que Cambió Todo (2017)</h2>
         </div>
@@ -181,7 +209,7 @@
       </article>
 
       <!-- Maik&Co -->
-      <article class="blog-post">
+      <article class="blog-post" id="maik">
         <div class="post-header">
           <span class="post-category">Emprendimiento</span>
           <h2>🚀 Maik&Co: Mi Empresa</h2>
@@ -211,8 +239,224 @@
         </div>
       </article>
 
+      <!-- Tecnología y Ciberseguridad -->
+      <article class="blog-post" id="tecnologia">
+        <div class="post-header">
+          <span class="post-category">Tecnología</span>
+          <h2>💻 Mi Pasión por la Tecnología y la Ciberseguridad</h2>
+        </div>
+        <div class="post-body">
+          <p>
+            Después de dejar el fútbol, la tecnología se convirtió en mi nuevo campo de juego. No fue un salto al vacío: 
+            desde pequeño había sentido curiosidad por los ordenadores, las redes y todo lo que se podía construir con código. 
+            Lo que empezó como un refugio se transformó en mi vocación.
+          </p>
+          <p>
+            Me especialicé en sistemas informáticos y más tarde descubrí la ciberseguridad. Para mí no es solo una profesión: 
+            es un puzzle constante. Cada vulnerabilidad que se cierra, cada sistema que se protege, es un problema resuelto. 
+            La misma mentalidad que usaba en el campo —anticipar jugadas, leer al rival, trabajar en equipo— la aplico ahora 
+            en entornos técnicos.
+          </p>
+          <h3>Qué me gusta de este mundo:</h3>
+          <ul>
+            <li><strong>Evolución constante:</strong> Nunca dejas de aprender; cada día hay algo nuevo.</li>
+            <li><strong>Impacto real:</strong> Ayudar a que empresas y personas estén más seguras tiene sentido.</li>
+            <li><strong>Creatividad técnica:</strong> Desarrollar soluciones y automatizar procesos me engancha.</li>
+            <li><strong>Comunidad:</strong> Gente con las mismas inquietudes, en LinkedIn, eventos y formación.</li>
+          </ul>
+          <p>
+            Sigo formándome (curso superior de ciberseguridad, prácticas con herramientas como Nmap, Wireshark, etc.) 
+            y compagino la teoría con proyectos reales. Mi objetivo es seguir creciendo en este sector y aportar valor 
+            tanto en seguridad como en desarrollo e infraestructura.
+          </p>
+          <a href="formacion.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Ver mi formación →</a>
+        </div>
+      </article>
+
+      <!-- Las personas que me marcaron -->
+      <article class="blog-post" id="personas">
+        <div class="post-header post-header-img" style="--bg-image: url('Img/Foto mia/1715684131009.jpg'); --bg-pos: 30% 50%;">
+          <span class="post-category">Personal</span>
+          <h2>👨‍👩‍👦 Las Personas que Me Marcaron</h2>
+        </div>
+        <div class="post-body">
+          <p>
+            Detrás de cada decisión hay personas. Mi familia, mis entrenadores y mi abuelo han sido pilares en mi vida. 
+            Sin ellos, el camino después de la lesión habría sido mucho más difícil.
+          </p>
+          <p>
+            <strong>Mi abuelo</strong> me enseñó que "la vida es corta, pero las oportunidades son infinitas si sabes buscarlas". 
+            Esa frase me acompañó cuando tuve que reinventarme. Él siempre creyó en mí, incluso cuando yo dudaba. 
+            Su manera de ver el trabajo, el esfuerzo y la familia sigue influyendo en cómo tomo decisiones hoy.
+          </p>
+          <p>
+            <strong>Mis padres</strong> trabajaron duro para darnos lo que pudieron. Verles esforzarse me hizo valorar 
+            cada oportunidad de estudiar y de mejorar. Ellos no tenían la formación financiera que yo he ido construyendo, 
+            pero me transmitieron la importancia del ahorro, la honestidad y no rendirse ante las dificultades.
+          </p>
+          <p>
+            En el <strong>fútbol</strong>, varios entrenadores y compañeros me enseñaron disciplina, humildad y trabajo en equipo. 
+            Esas relaciones me marcaron tanto como los resultados deportivos. Hoy sigo aplicando esas lecciones en proyectos 
+            y en cómo me relaciono con clientes y colaboradores.
+          </p>
+        </div>
+      </article>
+
+      <!-- Mi día a día -->
+      <article class="blog-post" id="rutina">
+        <div class="post-header">
+          <span class="post-category">Lifestyle</span>
+          <h2>📅 Mi Día a Día: Rutina y Productividad</h2>
+        </div>
+        <div class="post-body">
+          <p>
+            Combino formación, proyectos propios y consultoría. No tengo un horario rígido de oficina, pero sí una estructura 
+            que me ayuda a ser constante: mañanas para lo más exigente (estudio, desarrollo, tareas técnicas), tardes para 
+            reuniones, correos y tareas más ligeras.
+          </p>
+          <p>
+            Leo y me formo casi a diario —libros de finanzas, tecnología, productividad— y reservo tiempo para deporte 
+            y descanso. Después de la lesión aprendí que el cuerpo y la mente van juntos: si descuido uno, el otro se resiente.
+          </p>
+          <h3>Cosas que me funcionan:</h3>
+          <ul>
+            <li><strong>Priorizar:</strong> No intentar hacer todo; elegir 2–3 cosas importantes al día.</li>
+            <li><strong>Bloques de tiempo:</strong> Concentrar tareas similares (coding, lectura, admin) en bloques.</li>
+            <li><strong>Desconectar:</strong> Horas sin redes ni notificaciones para enfocarme.</li>
+            <li><strong>Revisar la semana:</strong> Qué salió bien, qué mejorar, qué dejar para la siguiente.</li>
+          </ul>
+          <p>
+            No soy perfecto ni tengo la rutina "definitiva". Voy ajustando según la carga de trabajo y los objetivos, 
+            pero tener una base me ayuda a no ir a la deriva y a sacar tiempo para lo que de verdad importa.
+          </p>
+        </div>
+      </article>
+
+      <!-- Objetivos y futuro -->
+      <article class="blog-post" id="objetivos">
+        <div class="post-header">
+          <span class="post-category">Futuro</span>
+          <h2>🎯 Objetivos y Visión de Futuro</h2>
+        </div>
+        <div class="post-body">
+          <p>
+            Me gusta tener claridad sobre hacia dónde quiero ir, sin obsesionarme con fechas exactas. A corto plazo: 
+            terminar el curso de ciberseguridad, seguir creciendo con Maik&Co y consolidar proyectos de consultoría 
+            técnica y desarrollo. A medio plazo: especializarme más en seguridad (auditorías, pentesting, formación) 
+            y que la libertad financiera siga dando sus frutos para poder invertir en más proyectos e ideas.
+          </p>
+          <p>
+            A largo plazo me imagino con un papel que combine <strong>tecnología, formación y emprendimiento</strong>: 
+            ayudar a empresas a estar más seguras, formar a gente en finanzas personales y tecnología, y seguir 
+            creando productos o servicios que resuelvan problemas reales. También quiero seguir aprendiendo del País Vasco 
+            y de otras culturas, viajar con propósito y mantener el equilibrio entre trabajo, salud y personas.
+          </p>
+          <p>
+            Lo que sí tengo claro es que no quiero quedarme estático. La lesión me enseñó que la vida puede cambiar 
+            en un instante; por eso valoro cada etapa y trato de construir algo que tenga sentido para mí y para los demás.
+          </p>
+        </div>
+      </article>
+
+      <!-- Cursos de Ciberseguridad Básica -->
+      <article class="blog-post" id="cursos-ciberseguridad">
+        <div class="post-header">
+          <span class="post-category">Formación</span>
+          <h2>🔒 Cursos Online de Ciberseguridad Básica: Por Qué y Para Quién</h2>
+        </div>
+        <div class="post-body">
+          <p>
+            Cuando empecé a formarme en ciberseguridad, me di cuenta de algo: la mayoría de la gente —y muchas pymes— 
+            no tiene ni idea de lo expuestos que están. Contraseñas débiles, redes sin proteger, correos que abren 
+            cualquier enlace, dispositivos sin actualizar. No es que no les importe; es que nadie les ha explicado 
+            lo básico de forma clara y práctica.
+          </p>
+          <p>
+            Yo mismo había estado ahí. Antes de estudiar sistemas y seguridad, no sabía qué era un phishing, 
+            por qué importaba tener contraseñas distintas en cada sitio o cómo proteger una red doméstica. 
+            Cuando empecé el curso superior de ciberseguridad, todo ese mundo se abrió y pensé: "esto debería 
+            saberlo todo el mundo, no solo los técnicos".
+          </p>
+          <p>
+            De ahí nació la idea de montar <strong>cursos online de ciberseguridad básica</strong>. No para 
+            convertir a la gente en hackers ni en expertos, sino para que cualquier persona —empleados, 
+            autónomos, dueños de pequeños negocios, padres y madres— pueda entender los riesgos reales y 
+            aplicar buenas prácticas sin necesidad de ser informático.
+          </p>
+          <h3>Qué cubren mis cursos de ciberseguridad básica:</h3>
+          <ul>
+            <li><strong>Protección personal y familiar:</strong> contraseñas seguras, doble factor, reconocer phishing y estafas.</li>
+            <li><strong>Seguridad en el teletrabajo:</strong> redes domésticas, VPNs, cómo no poner en riesgo a la empresa desde casa.</li>
+            <li><strong>Pequeño negocio y autónomos:</strong> protección de datos, backups, acceso a cuentas y dispositivos.</li>
+            <li><strong>Conceptos que todo el mundo debería conocer:</strong> malware, ransomware, ingeniería social, privacidad en redes.</li>
+          </ul>
+          <p>
+            El objetivo es democratizar un mínimo de conocimiento. Que nadie tenga que sentirse perdido 
+            o asustado cada vez que le llega un correo raro o le piden cambiar la contraseña. Por eso 
+            preparo contenido online, accesible y en español, pensado para quien empieza de cero.
+          </p>
+          <p>
+            Si te interesa formarte en ciberseguridad básica —para ti, tu equipo o tu negocio—, 
+            puedes escribirme por la página de contacto y te cuento cómo están planteados los cursos 
+            y en qué formato los estoy lanzando.
+          </p>
+          <a href="contacto.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Interesado en cursos de ciberseguridad →</a>
+        </div>
+      </article>
+
+      <!-- Cursos de IA para Negocios y Generar Ingresos -->
+      <article class="blog-post" id="cursos-ia">
+        <div class="post-header">
+          <span class="post-category">Formación</span>
+          <h2>🤖 Cursos de IA para Negocios y para Generar Dinero: Cómo Llegué a Esto</h2>
+        </div>
+        <div class="post-body">
+          <p>
+            Llevaba años leyendo sobre inteligencia artificial, automatización y nuevas herramientas. 
+            Pero cuando empecé a usar ChatGPT, Midjourney, herramientas de automatización y otras IAs 
+            en el día a día —para escribir, para organizar ideas, para probar estrategias de negocio— 
+            me di cuenta de que esto no era "cosa del futuro": era ya el presente, y quien no aprendiera 
+            a usarlo se iba a quedar atrás.
+          </p>
+          <p>
+            Vi a mucha gente con miedo ("la IA nos va a quitar el trabajo") y a otra que no sabía 
+            ni por dónde empezar. Yo, en cambio, estaba usándola para ahorrar tiempo, para probar 
+            ideas de Maik&Co, para generar contenido, para estructurar proyectos. Y pensé: si a mí 
+            me está ayudando tanto sin ser experto en machine learning, ¿por qué no enseñar a otros 
+            a usar la IA de forma práctica para sus negocios o para generar ingresos?
+          </p>
+          <p>
+            No hablo de programar modelos ni de teoría compleja. Hablo de <strong>usar la IA que ya 
+            existe</strong>: para marketing, para atención al cliente, para crear productos digitales, 
+            para automatizar tareas repetitivas, para lanzar ideas de negocio o side projects con 
+            menos fricción. La gente que ya está montando negocios con IA, creando contenido, 
+            ofreciendo servicios o mejorando su productividad está ganando ventaja; el resto 
+            puede aprender lo mismo.
+          </p>
+          <h3>Qué abordan mis cursos de IA para negocios y para generar dinero:</h3>
+          <ul>
+            <li><strong>IA para tu negocio:</strong> desde el que ya tienes hasta el que quieres montar —ideas, automatización, contenido, propuestas.</li>
+            <li><strong>Generar ingresos con IA:</strong> productos digitales, servicios, contenido, freelancing y proyectos paralelos.</li>
+            <li><strong>Herramientas prácticas:</strong> ChatGPT y alternativas, imágenes, voz, automatización; qué usar según tu objetivo.</li>
+            <li><strong>Casos reales y ejercicios:</strong> no solo teoría; aplicamos la IA a situaciones concretas (emails, redes, ideas de negocio).</li>
+          </ul>
+          <p>
+            Mi enfoque viene de la libertad financiera y el emprendimiento: la IA es una palanca 
+            más para trabajar menos en lo repetitivo y más en lo que aporta valor. Quiero que la 
+            gente pierda el miedo y empiece a usarla con criterio —para ahorrar tiempo, para 
+            probar ideas y para abrir nuevas fuentes de ingresos.
+          </p>
+          <p>
+            Si te interesa formarte en cómo usar la IA para tu negocio o para generar dinero, 
+            escríbeme por contacto y te explico cómo están planteados los cursos y en qué formato 
+            los doy (online, talleres, etc.).
+          </p>
+          <a href="contacto.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Interesado en cursos de IA →</a>
+        </div>
+      </article>
+
       <!-- Valores -->
-      <article class="blog-post">
+      <article class="blog-post" id="valores">
         <div class="post-header">
           <span class="post-category">Personal</span>
           <h2>💎 Mis Valores y Filosofía</h2>
@@ -287,6 +531,7 @@
               <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14.86A4.48 4.48 0 0022.43.36a9.07 9.07 0 01-2.88 1.1 4.52 4.52 0 00-7.7 4.13 12.84 12.84 0 01-9.3-4.71 4.51 4.51 0 001.4 6.05 4.48 4.48 0 01-2.05-.57v.06a4.5 4.5 0 003.62 4.42 4.49 4.49 0 01-2.04.08 4.53 4.53 0 004.22 3.15 9.06 9.06 0 01-5.6 1.94A9.34 9.34 0 010 19.54a12.75 12.75 0 006.92 2.03c8.3 0 12.85-6.87 12.85-12.85 0-.2 0-.39-.02-.58A9.2 9.2 0 0023 3z"/></svg>
             </a>
           </div>
+          <a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=mikel-barajas-15b700399" target="_blank" rel="noopener">Follow on LinkedIn</a>
         </div>
       </div>
       <div class="footer-bottom">
